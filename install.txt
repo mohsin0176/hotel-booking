@@ -1,0 +1,31 @@
+Demo Credential:
+
+    Email: admin@admin.com
+    Pass: password
+
+How to use using composer
+
+    Clone the repository with git clone
+    Copy .env.example file to .env and edit database credentials there
+    Run composer install
+    Run php artisan key:generate
+    Run php artisan migrate --seed (it has some seeded data for your testing)
+    That's it: launch the main URL and login with default credentials admin@admin.com - password
+
+ 
+Installation Step :
+
+    extract zip file in htdocs or www folder.
+    create new database phpmyadmin and import sql file.
+    edit .env file database credential.
+
+
+
+
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=lara_hb
+DB_USERNAME=root
+DB_PASSWORD=
